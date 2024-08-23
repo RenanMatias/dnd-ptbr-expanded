@@ -142,5 +142,21 @@
         "phb-2024"
       ]
     }
-  ]
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "3.3.1",
+          "verified": "3.3.1"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/RenanMatias/dnd-ptbr-expanded",
+  "manifest": "https://raw.githubusercontent.com/RenanMatias/dnd-ptbr-expanded/main/module.json",
+  "download": "https://codeload.github.com/RenanMatias/dnd-ptbr-expanded/zip/main"
 }
