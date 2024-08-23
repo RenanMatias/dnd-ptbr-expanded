@@ -1,0 +1,146 @@
+{
+  "id": "dnd-ptbr-expandido",
+  "title": "D&D PT-BR Expandido",
+  "version": "1.0.0",
+  "library": "false",
+  "socket": true,
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Renan Matias",
+      "url": "https://github.com/RenanMatias",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "magias",
+      "label": "Magias",
+      "path": "packs/magias",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "itens",
+      "label": "Itens",
+      "path": "packs/itens",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "monstros",
+      "label": "Monstros",
+      "path": "packs/monstros",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "talentos",
+      "label": "Talentos",
+      "path": "packs/talentos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "antecedentes",
+      "label": "Antecedentes",
+      "path": "packs/antecedentes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "caracteristicas-de-classes",
+      "label": "Características de Classes",
+      "path": "packs/caracteristicas-de-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "caracteristicas-de-monstros",
+      "label": "Características de Monstros",
+      "path": "packs/caracteristicas-de-monstros",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "label": "Macros",
+      "type": "Macro",
+      "name": "macros",
+      "path": "packs/macros",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "PHB 2024",
+      "type": "JournalEntry",
+      "name": "phb-2024",
+      "path": "packs/phb-2024",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "D&D pt-br Expandido",
+      "sorting": "a",
+      "color": "#348f2d",
+      "packs": [
+        "magias",
+        "itens",
+        "monstros",
+        "talentos",
+        "antecedentes",
+        "caracteristicas-de-classes",
+        "caracteristicas-de-monstros",
+        "macros",
+        "phb-2024"
+      ]
+    }
+  ]
+}
