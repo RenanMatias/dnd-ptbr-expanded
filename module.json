@@ -5,8 +5,8 @@
   "library": "false",
   "socket": true,
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "authors": [
     {
@@ -151,11 +151,31 @@
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "3.3.1",
-          "verified": "3.3.1"
+          "verified": "4.0.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.3.3"
         }
       }
     ]
   },
+  "esmodules": [
+    "main.js"
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR"
+    }
+  ],
   "url": "https://github.com/RenanMatias/dnd-ptbr-expanded",
   "manifest": "https://raw.githubusercontent.com/RenanMatias/dnd-ptbr-expanded/main/module.json",
   "download": "https://codeload.github.com/RenanMatias/dnd-ptbr-expanded/zip/main"

@@ -1,0 +1,125 @@
+{
+	"label": "Player's Handbook: Livro do Jogador",
+	"entries": {
+		"Actions": {
+			"name": "Ações"
+		},
+		"Appendix A: The Multiverse": {
+			"name": "Appendix A: The Multiverse"
+		},
+		"Appendix B: Creature Stat Blocks": {
+			"name": "Appendix B: Creature Stat Blocks"
+		},
+		"Appendix C: Rules Glossary": {
+			"name": "Apêndice C: Glossário de Regras"
+		},
+		"Appendix D: Rule References": {
+			"name": "Appendix D: Rule References"
+		},
+		"Art Handouts": {
+			"name": "Art Handouts"
+		},
+		"Background Descriptions": {
+			"name": "Background Descriptions"
+		},
+		"Barbarian": {
+			"name": "Barbarian"
+		},
+		"Bard": {
+			"name": "Bard"
+		},
+		"Changelog": {
+			"name": "Changelog"
+		},
+		"Character Classes": {
+			"name": "Character Classes"
+		},
+		"Character Origins": {
+			"name": "Character Origins"
+		},
+		"Cleric": {
+			"name": "Cleric"
+		},
+		"Combat": {
+			"name": "Combat"
+		},
+		"Conditions": {
+			"name": "Conditions"
+		},
+		"Crafting Equipment": {
+			"name": "Crafting Equipment"
+		},
+		"Creating a Character": {
+			"name": "Creating a Character"
+		},
+		"Credits": {
+			"name": "Credits"
+		},
+		"D20 Tests": {
+			"name": "D20 Tests"
+		},
+		"Damage and Healing": {
+			"name": "Damage and Healing"
+		},
+		"Druid": {
+			"name": "Druid"
+		},
+		"Equipment": {
+			"name": "Equipment"
+		},
+		"Exploration": {
+			"name": "Exploration"
+		},
+		"Feats": {
+			"name": "Feats"
+		},
+		"Fighter": {
+			"name": "Fighter"
+		},
+		"Magic Items": {
+			"name": "Magic Items"
+		},
+		"Monk": {
+			"name": "Monk"
+		},
+		"Mounts and Vehicles": {
+			"name": "Mounts and Vehicles"
+		},
+		"Paladin": {
+			"name": "Paladin"
+		},
+		"Playing the Game": {
+			"name": "Playing the Game"
+		},
+		"Ranger": {
+			"name": "Ranger"
+		},
+		"Rogue": {
+			"name": "Rogue"
+		},
+		"Services": {
+			"name": "Services"
+		},
+		"Social Interaction": {
+			"name": "Social Interaction"
+		},
+		"Sorcerer": {
+			"name": "Sorcerer"
+		},
+		"Species Descriptions": {
+			"name": "Species Descriptions"
+		},
+		"Spells": {
+			"name": "Spells"
+		},
+		"Warlock": {
+			"name": "Warlock"
+		},
+		"Welcome to Adventure": {
+			"name": "Welcome to AdventureXXXX"
+		},
+		"Wizard": {
+			"name": "Wizard"
+		}
+	}
+}
