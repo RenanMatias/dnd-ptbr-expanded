@@ -2,9 +2,9 @@
   "PHB": {
     "Title": "Player's Handbook",
     "JOURNAL": {
-      "Previous": "Previous",
+      "Previous": "Anterior",
       "Up": "Up",
-      "Next": "Next"
+      "Next": "Próximo"
     }
   },
   "SOURCE.BOOK.PHB2024": "Player's Handbook (2024)"
