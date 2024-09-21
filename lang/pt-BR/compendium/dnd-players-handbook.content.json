@@ -5,7 +5,25 @@
 	},
 	"entries": {
 		"Actions": {
-			"name": "Actions"
+			"name": "Ações",
+			"pages": {
+				"Overview": {
+					"name": "Overview",
+					"text": "<p>Quando você realiza algo além de se mover ou se comunicar, normalmente executa uma ação. A tabela Ações apresenta as principais ações do jogo, que são definidas com mais detalhes no glossário de regras.</p><table><caption>Ações</caption><thead><tr><th><p>Ação</p></th><th><p>Resumo</p></th></tr></thead><tbody><tr><td><p>&amp;Reference[Attack]{Atacar}</p></td><td><p>Atacar com uma arma ou um Ataque Desarmado.</p></td></tr><tr><td><p>&amp;Reference[Dash]{Correr}</p></td><td><p>Pelo resto do turno, dê a si mesmo <span>movimento extra</span> igual ao seu Deslocamento.</p></td></tr><tr><td><p>&amp;Reference[Disengage]{Desengajar}</p></td><td><p>Seu movimento não provoca Ataques de Oportunidade pelo resto do turno.</p></td></tr><tr><td><p>&amp;Reference[Dodge]{Esquivar}</p></td><td><p>Até o início do seu próximo turno, jogadas de ataque contra você têm Desvantagem, e você faz salvaguardas de Destreza com Vantagem. Você perde este benefício se tiver a condição Incapacitado ou se seu Deslocamento for 0.</p></td></tr><tr><td><p>&amp;Reference[Help]{Ajudar}</p></td><td><p>Ajudar no teste de atributo ou na jogada de ataque de outra criatura ou prestar primeiros socorros.</p></td></tr><tr><td><p>&amp;Reference[Hide]{Esconder-se}</p></td><td><p>Realizar um teste de Destreza (Furtividade).</p></td></tr><tr><td><p>&amp;Reference[Influence]{Influenciar}</p></td><td><p>Realizar um teste de Carisma (Atuação, Enganação, Intimidação ou Persuasão) ou Sabedoria (Lidar com Animais) para alterar a atitude de uma criatura.</p></td></tr><tr><td><p>&amp;Reference[Magic]{Usar Magia}</p></td><td><p>Conjurar uma magia, usar um item mágico ou usar uma característica mágica.</p></td></tr><tr><td><p>&amp;Reference[Ready]{Preparar}</p></td><td><p>Preparar-se para executar uma ação em resposta a um gatilho que você define.</p></td></tr><tr><td><p>&amp;Reference[Search]{Procurar}</p></td><td><p>Realizar um teste de Sabedoria (Intuição, Medicina, <span>Percepção</span> ou Sobrevivência).</p></td></tr><tr><td><p>&amp;Reference[Study]{Estudar}</p></td><td><p>Realizar um teste de Inteligência (Arcanismo, História, Investigação, Natureza ou Religião).</p></td></tr><tr><td><p>&amp;Reference[Utilize]{Usar Objeto}</p></td><td><p>Utilizar um objeto não mágico.</p></td></tr></tbody></table><p>Personagens dos jogadores e monstros também podem executar ações que não estão cobertas por essas opções. Muitas características de classe e outras habilidades oferecem alternativas de ação adicionais, e você pode improvisar outras. Quando você descreve uma ação que não está detalhada em outras partes das regras, o Mestre informará se essa ação é viável e que tipo de &amp;Reference[D20Test]{Teste de D20} você deve realizar, se necessário.</p>"
+				},
+				"One Thing at a Time": {
+					"name": "Uma Coisa de Cada Vez",
+					"text": "<p>O jogo utiliza ações para determinar o quanto de coisas você pode fazer simultaneamente. Você pode executar apenas uma ação por vez. Este princípio é especialmente relevante em combate, como será explicado em @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbCombat0000000]{Combate} mais adiante neste capítulo.</p><p>As ações também podem surgir em outras situações; em uma interação social, você pode tentar &amp;Reference[Influence]{Influenciar} uma criatura ou executar a ação &amp;Reference[Search]{Procurar} para interpretar a linguagem corporal da criatura, mas não pode executar ambas as ações ao mesmo tempo. E quando você está explorando uma masmorra, não é possível executar simultaneamente a ação Procurar para buscar armadilhas e a ação &amp;Reference[Help]Àjudar} para auxiliar outro personagem que está tentando abrir uma porta presa (com a ação &amp;Reference[Utilize]{Usar Objeto}).</p>"
+				},
+				"Reactions": {
+					"name": "Reações",
+					"text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.2VqLyxMyMxgXe2wC inline]</p><aside class=\"notable\"><h3>O Que o Seu Personagem Faria?</h3><p>Pergunte a si mesmo enquanto joga: “O que meu personagem faria?”. Interpretar um papel envolve entrar na mente de outra pessoa e compreender o que a motiva e como essas motivações se traduzem em ações. Em D&D, essas ações se desenrolam em um mundo fantástico repleto de situações que só podemos imaginar. Como seu personagem reage a essas circunstâncias?</p><p>Este conselho vem com uma ressalva importante: evite escolher personagens que comprometam a diversão dos outros jogadores e do Mestre. Opte por ações que encantem você e seus amigos.</p></aside>"
+				},
+				"Bonus Actions": {
+					"name": "Ações Bônus",
+					"text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.EjR3KL7KLTwjWBS0 inline]</p>"
+				}
+			}
 		},
 		"Appendix A: The Multiverse": {
 			"name": "Appendix A: The Multiverse"
