@@ -163,6 +163,15 @@
         "compatibility": {
           "minimum": "2.3.3"
         }
+      },
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "manifest": "",
+        "compatibility": {
+          "minimum": "1.0.0",
+          "verified": "1.0.0"
+        }
       }
     ]
   },
