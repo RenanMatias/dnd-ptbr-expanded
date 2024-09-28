@@ -1,5 +1,5 @@
 {
-	"label": "Player's Handbook",
+	"label": "Livro do Jogador",
 	"entries": {
 		"Actions": {
 			"name": "Ações",
@@ -153,7 +153,53 @@
 			}
 		},
 		"Damage and Healing": {
-			"name": "Damage and Healing"
+			"name": "Dano e Cura",
+			"pages": {
+				"Introduction": {
+					"name": "Introdução",
+					"text": "<p>Ferimentos e risco de morte são ameaças comuns em D&amp;D, conforme detalhado nas regras a seguir.</p>"
+				},
+				"Hit Points": {
+					"name": "Pontos de Vida",
+					"text": "<p>Pontos de Vida refletem a resiliência e a vontade de viver. Criaturas com mais Pontos de Vida são mais difíceis de eliminar. Seus Pontos de Vida máximos correspondem ao total quando não estão feridas, enquanto os Pontos de Vida atuais podem variar do máximo até o mínimo, que é 0.</p><p>Sempre que sofrer dano, subtraia-os dos seus Pontos de Vida. Enquanto não atingir 0, a perda deles não impacta suas habilidades.</p><p>Caso você tenha metade ou menos dos seus Pontos de Vida, está Sangrando. Isso não afeta o jogo diretamente, mas pode desencadear outros efeitos.</p><aside class=\"notable\"><h3>Descanso</h3><p>Aventureiros não podem passar o tempo todo se aventurando e precisam de descanso entre as aventuras. Todas as criaturas podem realizar um Descanso Curto de uma hora e um Descanso Longo de 8 horas. Recuperar Pontos de Vida é um dos principais benefícios desse descanso. As regras para os Descansos Curtos e Longos estão descritas no glossário de regras.</p></aside>"
+				},
+				"Damage Rolls": {
+					"name": "Jogadas de Dano",
+					"text": "<p>Cada arma, magia e habilidade de monstro que causa dano indica o valor de dano que inflige. Você joga os dados de dano, adiciona quaisquer modificadores e aplica o dano ao seu alvo. Se houver uma redução no dano, é possível causar 0 de dano, mas não um dano negativo.</p><p>Ao atacar com uma arma, você adiciona seu modificador de atributo — o mesmo utilizado na jogada de ataque — à jogada de dano. Uma magia especifica quais dados devem ser jogados para dano e se é necessário adicionar modificadores. A menos que uma regra indique o contrário, não se adiciona o modificador de atributo a um valor fixo de dano que não utiliza dados, como o dano de uma Zarabatana. Veja o capítulo 6 para os dados de dano das armas e o capítulo 7 para os dados de dano das magias.</p>"
+				},
+				"Critical Hits": {
+					"name": "Acertos Críticos",
+					"text": "<p>Ao obter um Acerto Crítico, você causa dano adicional. Jogue os dados de dano do ataque duas vezes, some-os e adicione os modificadores relevantes. Por exemplo, ao obter um Acerto Crítico com uma Adaga, jogue 2d4 em vez de 1d4 e inclua o modificador de atributo apropriado. Se o ataque incluir outros dados de dano, como os do Ataque Furtivo do Ladino, jogue também esses dados duas vezes.</p>"
+				},
+				"Saving Throws and Damage": {
+					"name": "Salvaguardas e Dano",
+					"text": "<p>Dano causado por salvaguardas usa estas regras.</p><h3>Dano Contra Vários Alvos</h3><p>Ao criar um efeito de dano que obriga dois ou mais alvos a realizar salvaguardas simultaneamente, jogue o dano uma única vez para todos os alvos. Por exemplo, ao usar <em>Bola de Fogo</em>, o mago joga o dano da magia uma vez para todas as criaturas afetadas pela explosão.</p><h3>Metade do Dano</h3><p>Muitos efeitos de salvaguarda causam dano reduzido pela metade (arredondado para baixo) ao alvo se a salvaguarda for bem-sucedida, sendo esse dano equivalente à metade do que ocorreria em caso de falha.</p>"
+				},
+				"Damage Types": {
+					"name": "Tipos de Dano",
+					"text": "<p>Cada situação de dano possui um tipo, como Cortante ou Ígneo. Os tipos de dano estão listados no glossário de regras e não têm regras próprias, mas outras regras, como Resistência, dependem deles.</p>"
+				},
+				"Resistance and Vulnerability": {
+					"name": "Resistência e Vulnerabilidade",
+					"text": "<p>Algumas criaturas e objetos possuem Resistência ou Vulnerabilidade a determinados tipos de dano. Se você tem Resistência a um tipo de dano, este é reduzido pela metade (arredondado para baixo). Por outro lado, se você tem Vulnerabilidade a um tipo de dano, este é duplicado. Por exemplo, se você possui Resistência a dano Gélido, ele é reduzido pela metade, enquanto se tiver Vulnerabilidade a dano Ígneo, o dano é dobrado.</p><h3>Não Acumula</h3><p>Situações de Resistência ou Vulnerabilidade que afetam o mesmo tipo de dano são consideradas como uma só. Por exemplo, se você tiver Resistência a dano Necrótico e a qualquer outro tipo de dano, o dano Necrótico será reduzido pela metade.</p><h3>Ordem de Aplicação</h3><p>Os modificadores de dano são aplicados na seguinte ordem: primeiro os ajustes (bônus, penalidades ou multiplicadores), em seguida a Resistência a Dano e, por último, a Vulnerabilidade.</p><p>Por exemplo, uma criatura possui Resistência a todos os tipos de dano e Vulnerabilidade a dano Ígneo, estando dentro de uma aura mágica que reduz todo tipo de dano em 5. Se ela sofrer 28 pontos de dano Ígneo, o dano é primeiramente reduzido em 5 (para 23), depois diminuído pela metade devido à Resistência da criatura (arredondado para 11) e, por fim, dobrado em função de sua Vulnerabilidade (para 22).</p>"
+				},
+				"Immunity": {
+					"name": "Imunidade",
+					"text": "<p>Certas criaturas e objetos possuem imunidade a tipos específicos de dano e condições. A imunidade a um tipo de dano significa que você não sofre dano desse tipo, enquanto a imunidade a uma condição indica que você não é afetado por ela.</p>"
+				},
+				"Healing": {
+					"name": "Cura",
+					"text": "<p>@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixDRule.JournalEntryPage.ICketFqbFslqKiX9 inline]</p>"
+				},
+				"Dropping to 0 Hit Points": {
+					"name": "Ficando sem Pontos de Vida",
+					"text": "<p>Quando os Pontos de Vida de uma criatura são reduzidos a 0, ela morre definitivamente ou fica Inconsciente, conforme explicado a seguir.</p><h3>Morte Instantânea</h3><p>Aqui estão as principais formas de uma criatura morrer instantaneamente:</p><p><em><strong>Morte de um Monstro.</strong></em> Um monstro morre assim que seus Pontos de Vida são reduzidos a 0, mas o Mestre pode ignorar essa regra para um monstro específico e tratá-lo como um personagem.</p><p><em><strong>Pontos de Vida Máximos em 0.</strong></em> Uma criatura morre se seus Pontos de Vida máximos forem reduzidos a 0. Certos efeitos drenam energia vital, reduzindo Pontos de Vida máximos de uma criatura.</p><p><em><strong>Dano Maciço.</strong></em> Se o dano reduzir um personagem a 0 Pontos de Vida e houver dano excedente, o personagem morre se o restante for igual ou superior aos seus Pontos de Vida máximos. Por exemplo, se o personagem tiver 12 Pontos de Vida máximos, estiver com 6 Pontos de Vida e sofrer 18 de dano, ele cai para 0 Pontos de Vida, com 12 de dano restante. Nesse caso, o personagem morre, pois 12 é igual aos seus Pontos de Vida máximos.</p><h3>Morte de Personagem</h3><p>Se seu personagem morrer, o grupo pode encontrar uma forma mágica de revivê-lo, como a magia <em>Reviver os Mortos</em>, ou conversar com o Mestre sobre a criação de um novo personagem para integrar o grupo. Veja o glossário de regras para mais detalhes sobre a morte.</p><h3>Caindo Inconsciente</h3><p>Se você for reduzido a 0 Pontos de Vida e não morrer instantaneamente, fica com a &amp;Reference[Unconscious]{Inconsciente} condição até recuperar qualquer quantidade de Pontos de Vida e precisa realizar Salvaguarda contra Morte (veja abaixo).</p><aside class=\"notable\"><h3>Nocautear uma Criatura</h3><p>Quando você reduz uma criatura a 0 Pontos de Vida com um ataque corpo a corpo, pode optar por deixá-la com 1 Ponto de Vida e aplicar a &amp;Reference[Unconscious]{Inconsciente} condição. A criatura inicia um Descanso Curto, e ao final desse período, a condição se encerra antes se a criatura recuperar Pontos de Vida ou se alguém usar uma ação para prestar primeiros socorros, realizando um [[/check 10 skill=med]]{teste bem-sucedido de Sabedoria (Medicina) CD 10}.</p></aside><h3>Salvaguarda Contra Morte</h3><p>Sempre que você iniciar seu turno com 0 Pontos de Vida, deve realizar uma Salvaguarda contra Morte para determinar se está se aproximando da morte ou conseguindo se manter vivo. Diferente das outras salvaguardas, esta não está vinculada a um valor de atributo. Agora, você está nas mãos do destino.</p><p><em><strong>Três Sucessos/Fracassos.</strong></em> Se o resultado for 10 ou mais, você alcança um sucesso. Caso contrário, você falha. Um sucesso ou fracasso, por si só, não tem impacto. Ao obter o terceiro sucesso, você se torna Estável (veja “Estabilizando um Personagem” abaixo). Ao obter o terceiro fracasso, você morre.</p><p>Os sucessos e fracassos não precisam ser consecutivos; registre ambos até alcançar três do mesmo tipo. As contagens retornam a 0 quando você recupera Pontos de Vida ou se torna Estável.</p><p><em><strong>Tirando 1 ou 20.</strong></em> Um resultado de 1 no d20 para uma Salvaguarda contra Morte conta como duas falhas. Um 20 no d20 significa que você recupera 1 Ponto de Vida.</p><p><em><strong>Dano com 0 Pontos de Vida.</strong></em> Ao sofrer dano com 0 Pontos de Vida, você falha em uma Salvaguarda Contra a Morte. Se o dano for oriundo de um Acerto Crítico, você recebe o dobro de falhas. Se o dano for igual ou superior aos seus Pontos de Vida máximos, você morre.</p><h3>Estabilizando um Personagem</h3><p>Você pode executar a ação Ajudar para tentar estabilizar uma criatura com 0 Pontos de Vida, realizando um teste bem-sucedido de Sabedoria (Medicina) CD 10.</p><p>Uma criatura estável não faz Salvaguardas Contra Morte mesmo que tenha 0 pontos de vida, mas ainda permanece com a &amp;Reference[Unconscious]{Inconsciente} condição. Se a criatura sofrer dano, ela deixa de ser estável e começa a realizar novamente os Salvaguardas Contra Morte. Uma criatura estável que não tenha sido curada recupera 1 ponto de vida após 1d4 horas.</p>"
+				},
+				"Temporary Hit Points": {
+					"name": "Pontos de Vida Temporários",
+					"text": "<p>Algumas magias e outros efeitos conferem Pontos de Vida Temporários, sendo um amortecedor contra a perda de Pontos de Vida reais, conforme explicado abaixo.</p><h3>Perda de Pontos de Vida Temporários Primeiro</h3><p>Se você tiver Pontos de Vida Temporários e sofrer dano, esses pontos são perdidos primeiro, e qualquer dano restante é subtraído dos seus Pontos de Vida. Por exemplo, se você tiver 5 Pontos de Vida Temporários e sofrer 7 de dano, perde esses pontos e, em seguida, 2 Pontos de Vida.</p><h3>Duração</h3><p>Os Pontos de Vida Temporários duram até se esgotarem ou até você terminar um Descanso Longo (veja o glossário de regras).</p><h3>Eles Não Acumulam</h3><p>Os Pontos de Vida Temporários não podem ser acumulados. Se você tiver Pontos de Vida Temporários e receber mais, você decide se mantém os que possui ou se aceita os novos. Por exemplo, se uma magia lhe concede 12 Pontos de Vida Temporários quando você já tem 10, você pode escolher entre 12 ou 10, não 22.</p><h3>Não são Pontos de Vida ou Cura</h3><p>Os Pontos de Vida Temporários não podem ser somados aos seus Pontos de Vida, a cura não pode restaurá-los e o recebimento de Pontos de Vida Temporários não é considerado cura. Como os Pontos de Vida Temporários não são Pontos de Vida, uma criatura pode estar com os Pontos de Vida totais e ainda assim receber Pontos de Vida Temporários.</p><p>Se você tiver 0 Pontos de Vida, e receber Pontos de Vida Temporários, você não recupera a consciência. Somente cura verdadeira pode lhe salvar.</p>"
+				}
+			}
 		},
 		"Druid": {
 			"name": "Druid"
